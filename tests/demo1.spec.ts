@@ -27,7 +27,7 @@ test("verify the css locator",async({page})=>{
 
 })
 
-test.only("verfy the calender",async({page})=>{
+test("verfy the calender",async({page})=>{
 
     await page.goto("https://www.booking.com/");
     await page.screenshot({path:'screenshot/homepage.png'})
